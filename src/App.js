@@ -1,13 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import About from './Components/About';
+import Carousel from './Components/Carousel';
+import Discount from './Components/Discount/Discount';
+import Inside from './Components/Inside';
+import Pricing from './Components/Pricing';
+import Reviews from './Components/Reviews';
+import Works from './Components/Works';
+
 
 function App() {
   return (
-    <div className="App">
-      <button className="btn btn-outline">Button</button>
-<button className="btn btn-outline btn-primary">Button</button>
-<button className="btn btn-outline btn-secondary">Button</button>
-<button className="btn btn-outline btn-accent">Button</button>
+    <div className="">
+      <Carousel></Carousel>
+      <About></About>
+      <Works></Works>
+      <Pricing></Pricing>
+      <Inside></Inside>
+      <Discount></Discount>
+      <Reviews></Reviews>
     </div>
   );
 }
