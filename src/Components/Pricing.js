@@ -4,7 +4,7 @@ const Pricing = () => {
     return (
         <div className='bg-lime-400 '>
             <h3 className='text-5xl text-white  text-left py-16 ms-16'>PRICING</h3>
-            <section className='grid grid-cols-3 m-10 pb-16 gap-8'>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:m-10 pb-16 gap-8'>
             <div className="card border border-gray-100 hover:border-green-600 transition duration-300 ease-in-out  bg-base-100 shadow-xl">
               <div className='mt-10 text-center mx-24 '>
 

@@ -12,7 +12,7 @@ const Works = () => {
         <div className='text-white  card rounded-none bg-black opacity-80 ' style={divStyle}>
             
             <h2 className='text-4xl pt-10 font-bold text-center'>HOW IT WORKS</h2>
-            <section className='grid grid-cols-3 m-28 gap-8 text-3xl'>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:m-28 gap-8 text-3xl'>
                 <div>
                     <h4 className='text-center mb-9 text-white w-12 p-1 rounded-3xl bg-lime-700 '>1</h4>
                     <p>Visit freshlo.ca to <br />
