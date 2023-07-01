@@ -3,6 +3,8 @@ import './App.css';
 import About from './Components/About';
 import Carousel from './Components/Carousel';
 import Discount from './Components/Discount/Discount';
+import Footer from './Components/Footer';
+import Freshlo from './Components/Freshlo';
 import Inside from './Components/Inside';
 import Pricing from './Components/Pricing';
 import Reviews from './Components/Reviews';
@@ -19,6 +21,8 @@ function App() {
       <Inside></Inside>
       <Discount></Discount>
       <Reviews></Reviews>
+      <Freshlo></Freshlo>
+      <Footer></Footer>
     </div>
   );
 }

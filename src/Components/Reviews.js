@@ -2,8 +2,8 @@ import React from 'react';
 
 const Reviews = () => {
     return (
-        <div className='bg-lime-400 pb-10'>
-            <h3 className='text-5xl text-white  text-left py-6 ms-16'>REVIEWS</h3>
+        <div className='bg-green-600 text-white pb-10'>
+            <h3 className='text-5xl  text-left py-6 ms-16'>REVIEWS</h3>
             <div className="hero mt-4 mb-5">
   <div className="hero-content flex-col lg:flex-row-reverse">
     
